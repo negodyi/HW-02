@@ -146,3 +146,9 @@ h1 {
     background-color:#002ead;
     transition: 0.7s;
 }
+
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+}
