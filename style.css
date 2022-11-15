@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+html,
+body {
+    height: 100%;
+    background-image: url("https://top-fon.com/uploads/posts/2022-09/1663556837_29-top-fon-com-p-serii-fon-dlya-slaidov-v-prezentatsii-foto-54.jpg");
+}
+
+.greetings,
+p,
+p2,
+h1,
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px:
+    background-color: #a1a85f;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11%;
+    margin-bottom: 2em;
+    background-color: rgba(124, 129, 75, 0.34);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 100px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #181818;
+    font-weight: 800;
+}
+
+
+.logo img {
+    width: 140px;
+    height: 105px;
+    margin-left: 30px;
+    flex-direction: row;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    padding: 30px;
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 150px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+.article {
+    margin-top: 8em;
+}
+
+
+p {
+    font-size: 1.5rem;
+    color: #08298A;
+    padding-left: 2.px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #08298A;
+    text-align: center;
+    padding-left: 2.px;
+}
+
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #5882FA;
+    flex: 0 0 auto;
+}
+
+.button {
+    position: absolute;
+    top:30%;
+    left: 47%;
+    background-color: #3a7dbb;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding:15px;
+    min-height:30px;
+    min-width: 120px;
